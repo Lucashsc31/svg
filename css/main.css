@@ -1,20 +1,17 @@
-.triangle{
+html, body {
+    background: #333;
+    text-align: center;
+}
+
+.l{
     stroke-dasharray: 17;
     animation: dash 2.5s ease-in-out infinite;
 }
 
-
 @keyframes dash{
     to{
-        stroke-dashoffset: 136;
+        stroke-dashoffset: 136.1;
     }
 }
 
-
-html, body {
-    background: #333;
-    height: 100%;
-    overflow: hidden;
-    text-align: center;
-}
  
